@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "This website is home to a hodgepodge of code and documentation written mostly for my own future reference."
+description: "This website is home to my personal wiki; a place where I gather and share knowledge on topics I'm interested in."
 permalink: /
 last_modified_date: 2022-04-25
 ---
@@ -10,7 +10,7 @@ last_modified_date: 2022-04-25
 # Hello, world! 👋🏻
 {: .fs-9 }
 
-Welcome to my humble abode. Feel free to have a wander and show yourself around. If you're a bit more human than a web crawler, and would like to hear more about anything I've worked on, please don't hesitate to [say hello](mailto:hello@tonyle.com "hello@tonyle.com"). In any case, I hope you enjoy your stay.
+Welcome to my humble abode. If you're human and would like to hear more about anything I've worked on, please don't hesitate to [say hello](mailto:hello@tonyle.com "hello@tonyle.com").
 {: .fs-6 .fw-300 }
 
 [View GitHub projects](https://www.github.com/tfle/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Connect on LinkedIn](https://www.linkedin.com/in/tonyfle/ "Opens in a new tab"){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -23,4 +23,4 @@ I am a [Master of Information Technology](https://www.unsw.edu.au/study/postgrad
 
 ## About this website 🌱
 
-Inspired by other [digital gardens](https://maggieappleton.com/garden-history), this website is home to my personal wiki; a place where I can seed new topics of interest and slowly grow them over time. I'm open-sourcing my learning journey, making things that I wish I had found and documenting things that I wish I had known. Many of these pages will never be "done", but that's a feature, and not a bug!
+Inspired by other [digital gardens](https://maggieappleton.com/garden-history), this website is home to my personal wiki; a place where I gather and share knowledge on topics I'm interested in. I am open-sourcing my learning journey, making things that I wish I had found and documenting things that I wish I had known. Many of these pages will never be "done", but that's a feature and not a bug!
