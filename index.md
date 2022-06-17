@@ -7,13 +7,13 @@ permalink: /
 last_modified_date: 2022-04-25
 ---
 
-# Hello, world! 👋🏻
+# Hello, World! 👋🏻
 {: .fs-9 }
 
 Welcome to my humble abode. If you would like to hear more about anything I've worked on, please don't hesitate to [say hello](mailto:hello@tonyle.com "hello@tonyle.com").
 {: .fs-6 .fw-300 }
 
-[View GitHub projects](https://www.github.com/tfle/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Connect on LinkedIn](https://www.linkedin.com/in/tonyfle/ "Opens in a new tab"){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View GitHub Projects](https://www.github.com/tfle/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Connect on LinkedIn](https://www.linkedin.com/in/tonyfle/ "Opens in a new tab"){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
