@@ -16,6 +16,8 @@ This website is home to my digital garden, a place where I slowly build and publ
 [View GitHub Projects](https://www.github.com/tfle/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2}
 [Download Zombie Template](https://github.com/tfle/junior-engineers/raw/main/Baseplate.rbxl){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0}
 [Download Zombie Survival](https://github.com/tfle/tfle.github.io/blob/6c5fec495f5e02ce0e9a12ae32a1d5ab9d624de8/Survival%20World%20Playable.rbxl?raw=true){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2}
+[Download Zombie Weapons]([https://github.com/tfle/tfle.github.io/blob/6c5fec495f5e02ce0e9a12ae32a1d5ab9d624de8/Survival%20World%20Playable.rbxl?raw=true](https://github.com/tfle/junior-engineers/raw/main/Weapons.zip){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0}
+
 
 ---
 
