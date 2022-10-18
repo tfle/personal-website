@@ -7,7 +7,7 @@ permalink: /
 ---
 
 # Tony Le 
-{: .fs-9 }
+{: .fs-10 .fw-700}
 
 I am a Master of Information Technology student at the University of New South Wales. Previously, I completed degrees in Physics and Medical Science at the University of Sydney. I’ve been interested in science and technology for as long as I can remember, and I’m passionate about teaching and sharing knowledge with others. 
 {: .fs-6 .fw-300 }
