@@ -22,5 +22,5 @@ When I'm not collecting degrees, or teaching in the classroom, I like to keep bu
 
 ---
 
-Other acronyms you may know me from include [NYSF](https://www.nysf.edu.au) and [LIYSF](https://www.liysf.org.uk).
+You may also remember me from such acronyms as [NYSF](https://www.nysf.edu.au) and [LIYSF](https://www.liysf.org.uk).
 {: .fs-2 .fw-300}
