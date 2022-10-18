@@ -1,13 +1,11 @@
 title: Tony Le
-description: >-
-  I am a Master of Information Technology student at the University of New South Wales.
-  Previously, I completed degrees in Physics and Medical Science at the University of Sydney.
-  This website is mostly home to a hodgepodge of code and documentation written for future reference.
+description: "This is the website you go to if you want to know who Tony Le is." 
 url: "https://tonyle.com" 
 remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
 
-# Aux links for the upper right navigation
+# Upper right corner of every page
 aux_links:
   "Tony Le on GitHub":
     - "https://github.com/tfle/"
-
+# Bottom right corner of every page
+search.button: true
