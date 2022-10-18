@@ -18,7 +18,7 @@ When I'm not collecting degrees, or teaching in the classroom, I like to keep bu
 {: .fs-6 .fw-300 }
 
 [Connect on LinkedIn](https://www.linkedin.com/in/tonyfle/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0}
-[View GitHub Projects](https://www.github.com/tfle/){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2}
+[Send mail to me](mailto:mailto@tonyle.com){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2}
 
 ---
 
