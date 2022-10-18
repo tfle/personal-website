@@ -17,8 +17,8 @@ I run [coding and robotics classes](https://jnrengineers.com.au) in Sydney where
 When I'm not collecting degrees, or teaching in the classroom, I like to keep busy with unimportant nonsense in the company of friends and family.
 {: .fs-6 .fw-300 }
 
-[Connect on LinkedIn](https://www.linkedin.com/in/tonyfle/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0}
-[Send mail to me](mailto:mailto@tonyle.com){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2}
+[Connect on LinkedIn](https://www.linkedin.com/in/tonyfle/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2}
+[Send Mail to Me](mailto:mailto@tonyle.com){: .btn .fs-5 .mb-4 .mb-md-0}
 
 ---
 
