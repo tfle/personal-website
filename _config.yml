@@ -9,3 +9,20 @@ aux_links:
     - "https://github.com/tfle/"
 # Bottom right corner of every page
 search.button: true
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
