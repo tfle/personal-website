@@ -71,7 +71,7 @@ This is the code we finished last week in *Python*. If you need to catch up, you
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://minecraft.makecode.com/#pub:_YfceRR7qvKDW" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 {: .did-you-know}
-You can convert the code from **Python** to **Blocks** by clicking on the 🧩 in the **Code Builder**. Try converting it above!
+You can convert the code from *Python* to *Blocks* by clicking on the 🧩 in the **Code Builder**. Try converting it above!
 
 ---
 
