@@ -78,7 +78,7 @@ You can convert the code from **Python** to **Blocks** by clicking on the 🧩 i
 ---
 
 ## Today's Activity
-We’re going to be building skyrise buildings so we can make our own Minecraft city!
+We’re going to finish the code for building skyrises so we can make our own Minecraft city!
 ![](https://static.planetminecraft.com/files/resource_media/screenshot/1834/2018-08-23-17-51-14-copy-1535046684.png)
 
 <script>
