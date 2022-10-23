@@ -58,6 +58,10 @@ Click your name to automagically copy your username.
   <button class="btn mr-4 mb-4" id="junior17">Simo</button>
   <button class="btn mr-4 mb-4" id="junior18">Mason</button>
   <button class="btn mr-4 mb-4" id="junior19">Noah V.</button>
+  <!--
+  <button class="btn mr-4 mb-4" id="junior20">Spare 1</button>
+  <button class="btn mr-4 mb-4" id="junior21">Spare 2</button>
+  -->
 </div>
 
 Open **Minecraft Education**, paste in your username and type in the password (it's on the whiteboard)!
