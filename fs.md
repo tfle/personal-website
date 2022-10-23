@@ -32,7 +32,7 @@ Someone always asks what the game pin is, even though it's up on the screen.
 
 ---
 
-## Sign into Minecraft Education
+## Sign in to Minecraft Education
 Click your name to automagically copy your username.
 
 <div id="roll">
