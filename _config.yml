@@ -14,7 +14,8 @@ callouts_level: quiet # or loud
 callouts:
   highlight:
     color: yellow
-  blue:
+  hint:
+    title: Hint
     color: blue
   did-you-know:
     title: Did you know?
