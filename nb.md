@@ -8,88 +8,101 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# NB
+# Junior Engineers with Tony, Zoe and Anna
+{: .no_toc }
 
-Click on your name to reveal your username. It's copied automatically.
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
-{: .note }
-Did you know? The shortcut for paste is Control + V.
+---
 
-<ol start="1">
-  <button class="btn" type="button">Ethan</button>
-  <button class="btn" type="button">Noah</button>
-  <button class="btn" type="button">Penelope</button>
-  <button class="btn" type="button">Primrose</button>
-  <button class="btn" type="button">Emily</button>
-  <button class="btn" type="button">Harrison</button>
-  <button class="btn" type="button">Audrey</button>
-  <button class="btn" type="button">Angus</button>
-  <button class="btn" type="button">Vihan</button>
-  <button class="btn" type="button">Edward</button>
-  <button class="btn" type="button">William</button>
-  <button class="btn" type="button">Kai</button>
-  <button class="btn" type="button">Marcus</button>
-  <button class="btn" type="button">Emilie</button>
-  <button class="btn" type="button">Pao Pao</button>
-</ol>
+## Enter the Kahoot quiz
+Click on the button below to open **Kahoot** in a new tab.
 
+<a href="https://kahoot.it" target="_blank"><button class="btn btn-purple">Open Kahoot</button></a>
+
+{: .did-you-know}
+Someone always asks what the game pin is, even though it's up on the screen.
+
+---
+
+## Sign into Minecraft Education
+Click your name to copy your username.
+
+<div id="roll">
+  <button class="btn mr-4 mb-4" id="instructor23">Tony</button>
+  <button class="btn mr-4 mb-4" id="instructor23">Zoe</button>
+  <button class="btn mr-4 mb-4" id="instructor23">Anna</button>
+  <button class="btn mr-4 mb-4" id="junior1">Ethan</button>
+  <button class="btn mr-4 mb-4" id="junior2">Noah M.</button>
+  <button class="btn mr-4 mb-4" id="junior3">Penelope</button>
+  <button class="btn mr-4 mb-4" id="junior4">Primrose</button>
+  <button class="btn mr-4 mb-4" id="junior5">Emily</button>
+  <button class="btn mr-4 mb-4" id="junior6">Harrison</button>
+  <button class="btn mr-4 mb-4" id="junior7">Audrey</button>
+  <button class="btn mr-4 mb-4" id="junior8">Angus</button>
+  <button class="btn mr-4 mb-4" id="junior9">Vihan</button>
+  <button class="btn mr-4 mb-4" id="junior10">Edward</button>
+  <button class="btn mr-4 mb-4" id="junior11">William Wo.</button>
+  <button class="btn mr-4 mb-4" id="junior12">Kai</button>
+  <button class="btn mr-4 mb-4" id="junior13">Marcus</button>
+  <button class="btn mr-4 mb-4" id="junior14">Emilie</button>
+  <button class="btn mr-4 mb-4" id="junior15">Pao Pao</button>
+  <button class="btn mr-4 mb-4" id="junior16">William Wa.</button>
+  <button class="btn mr-4 mb-4" id="junior17">Simo</button>
+  <button class="btn mr-4 mb-4" id="junior18">Mason</button>
+  <button class="btn mr-4 mb-4" id="junior19">Noah V.</button>
+</div>
+
+Open **Minecraft Education**, paste in your username and type in the password (it's on the whiteboard)!
+
+{: .did-you-know}
+The shortcut for paste is **Control + V**
+
+---
+
+## Last Week
+This is the code we finished last week. You can copy it by just clicking on the button.
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://minecraft.makecode.com/#pub:_d6PcmiFMhTz8" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+
+---
+
+## Today's Activity
 We’re going to be building skyrise buildings so we can make our own Minecraft city!
 ![](https://static.planetminecraft.com/files/resource_media/screenshot/1834/2018-08-23-17-51-14-copy-1535046684.png)
 
 <script>
-  var prefix = "junior";
-  var suffix = "@jnreng.onmicrosoft.com";
-  var ol = document.getElementsByTagName("ol")[0];
-  
-  ol.onclick = function(e) {
-    var li = e.target, i = ol.start || 1;
-    while (li.previousElementSibling) {
-      li = li.previousElementSibling;
-      i += 1;   
-    }
-    var username = prefix + i + suffix;
-    navigator.clipboard.writeText(username);
-    alert(username);
-  };
+  const sortList = list => [...list].sort((a, b) => {
+    const A = a.textContent, B = b.textContent;
+    return (A < B) ? -1 : (A > B) ? 1 : 0;
+  });
+
+  window.addEventListener("load", function() {
+    const ul = document.getElementById("roll");
+    const list = ul.querySelectorAll("button");
+    ul.append(...sortList(list));
+  });
 </script>
-
-<!--
-<input type="text" value="Hello World" id="myInput">
-
-<div class="tooltip">
-<button onclick="myFunction()">
-  <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
-  Copy text
-  </button>
-</div>
-
 <script>
-function myFunction() {
-  var copyText = document.getElementById("myInput");
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-  navigator.clipboard.writeText(copyText.value);
-  
-  var tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "Copied: " + copyText.value;
-}
+  var domain = "@jnreng.onmicrosoft.com";
+  var roll = document.getElementById("roll");
+  roll.addEventListener("click", function(event) {
+    if (event.target.nodeName == "BUTTON") {
+      var button = event.target;
+      navigator.clipboard.writeText(button.id + domain);
+      for (let i = 0; i < roll.children.length; i++) {
+        let student = roll.children[i];
+        student.classList.remove("btn-purple");
+      };
+      button.classList.add("btn-purple");
+    };
+  });
 </script>
 
-<button type="button" name="button" class="btn">Button element</button>
-
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
-
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
--->
