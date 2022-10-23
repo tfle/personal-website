@@ -14,14 +14,13 @@ callouts_level: quiet # or loud
 callouts:
   highlight:
     color: yellow
-  important:
-    title: Important
+  blue:
     color: blue
-  new:
-    title: New
+  did-you-know:
+    title: Did you know?
     color: green
-  note:
-    title: Note
+  task:
+    title: Task
     color: purple
   warning:
     title: Warning
