@@ -89,6 +89,9 @@ Make a rainbow appear behind you when you fly!
 
 ![](https://upload.wikimedia.org/wikipedia/en/e/ed/Nyan_cat_250px_frame.PNG)
 
+{: .hint}
+Think about the order of colours in the rainbow and how you can stack each colour.
+
 Make a flying carpet!
 
 ![](https://upload.wikimedia.org/wikipedia/commons/5/55/Vasnetsov_samolet.jpg)
