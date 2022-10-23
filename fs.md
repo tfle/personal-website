@@ -65,7 +65,13 @@ The shortcut for paste is **Control + V**
 
 ---
 
-## Last Week
+## Recap
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/7xqot4oA2vo" title="Minecraft Events Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+---
+
+## Last Week's Code
 This is the code we finished last week in *Python*. If you need to catch up, you can copy the *Python* code into the **Minecraft Code Builder**.
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://minecraft.makecode.com/#pub:_YfceRR7qvKDW" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
@@ -76,9 +82,19 @@ You can convert the code from *Python* to *Blocks* by clicking on the 🧩 in th
 ---
 
 ## Today's Activity
+Make sure your Yellow Brick Road code works, then try it out with different *Player Events* like flying.
+
+### Challenges
 Make a rainbow appear behind you when you fly!
 
 ![](https://upload.wikimedia.org/wikipedia/en/e/ed/Nyan_cat_250px_frame.PNG)
+
+Make a flying carpet!
+
+![](https://upload.wikimedia.org/wikipedia/commons/5/55/Vasnetsov_samolet.jpg)
+
+{: .hint}
+You'll need to replace the blocks behind you with air.
 
 <script>
   const sortList = list => [...list].sort((a, b) => {
