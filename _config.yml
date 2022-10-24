@@ -12,7 +12,8 @@ search.button: true
 
 callouts_level: quiet # or loud
 callouts:
-  highlight:
+  selected-user:
+    title: Selected user
     color: yellow
   hint:
     title: Hint
