@@ -8,7 +8,8 @@ aux_links:
   "Tony Le on GitHub":
     - "https://github.com/tfle/"
 # Bottom right corner of every page
-search.button: true
+search:
+  button: true
 
 callouts_level: quiet # or loud
 callouts:
