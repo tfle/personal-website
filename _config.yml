@@ -14,7 +14,7 @@ callouts_level: quiet # or loud
 callouts:
   selected-user:
     title: Selected user
-    color: yellow
+    color: purple
   hint:
     title: Hint
     color: blue
