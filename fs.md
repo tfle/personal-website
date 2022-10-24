@@ -36,20 +36,20 @@ Someone always asks what the game pin is, even though it's up on the screen.
 Click your name to automagically copy your username.
 
 <div id="roll">
-  <button class="btn mr-4 mb-4" id="instructor5">Tony</button>
-  <button class="btn mr-4 mb-4" id="instructor5">Anna</button>
-  <button class="btn mr-4 mb-4" id="junior32">Luka</button>
-  <button class="btn mr-4 mb-4" id="junior33">Thomas</button>
-  <button class="btn mr-4 mb-4" id="junior34">Rachel</button>
-  <button class="btn mr-4 mb-4" id="junior35">Lam</button>
-  <button class="btn mr-4 mb-4" id="junior36">Zeth</button>
-  <button class="btn mr-4 mb-4" id="junior37">Kris</button>
-  <button class="btn mr-4 mb-4" id="junior137">Isabella</button>
-  <button class="btn mr-4 mb-4" id="junior138">Shanivi</button>
-  <button class="btn mr-4 mb-4" id="junior139">Jayden</button>
-  <button class="btn mr-4 mb-4" id="junior140">Ilsa</button>
-  <button class="btn mr-4 mb-4" id="junior141">Leopold</button>
-  <button class="btn mr-4 mb-4" id="junior142">Harrison</button>
+  <button class="btn mr-4 mb-4" id="instructor5">Tony<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="instructor5">Anna<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior32">Luka<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior33">Thomas<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior34">Rachel<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior35">Lam<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior36">Zeth<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior37">Kris<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior137">Isabella<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior138">Shanivi<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior139">Jayden<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior140">Ilsa<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior141">Leopold<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior142">Harrison<span style="display:none"></span></button>
   <!--
   <button class="btn mr-4 mb-4" id="junior143">Spare 1</button>
   <button class="btn mr-4 mb-4" id="junior144">Spare 2</button>
@@ -57,6 +57,9 @@ Click your name to automagically copy your username.
   <button class="btn mr-4 mb-4" id="junior146">Spare 4</button>
   -->
 </div>
+
+{: .selected-user}
+<p id="selected-user">None</p>
 
 Open **Minecraft Education**, paste in your username and type in the password (it's on the whiteboard)!
 
@@ -123,6 +126,7 @@ You'll need to replace the blocks behind you with air.
         student.classList.remove("btn-purple");
       };
       button.classList.add("btn-purple");
+      document.getElementById("selected-user").innerHTML = "<b>" + button.innerText + "</b>" + button.firstElementChild.innerText;
     };
   });
 </script>
