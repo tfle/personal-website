@@ -59,6 +59,7 @@ The shortcut for paste is **Control + V**
 ## Last Week's Code
 This is the code we finished last week in *Python*. If you need to catch up, you can copy the *Python* code into the **Minecraft Code Builder**.
 
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://minecraft.makecode.com/#pub:_JkR94cPWcTkp" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 {: .did-you-know}
 You can convert the code from *Python* to *Blocks* by clicking on the 🧩 in the **Code Builder**. Try converting it above!
@@ -66,18 +67,16 @@ You can convert the code from *Python* to *Blocks* by clicking on the 🧩 in th
 ---
 
 ## Today's Activity
+Make the road exactly as seen in the image below in the Code Builder!
 
 ### Challenge 1
-![](image.jpg)
-
-{: .hint}
-Hint
+Add a footpath to either side of the road.
 
 ### Challenge 2
-![](image.jpg)
+Create a T intersection.
 
 {: .hint}
-Hint
+Create another road and join it to your first road.
 
 <script>
   const sortList = list => [...list].sort((a, b) => {
