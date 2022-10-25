@@ -69,6 +69,8 @@ You can convert the code from *Python* to *Blocks* by clicking on the 🧩 in th
 ## Today's Activity
 Make the road exactly as seen in the image below in the Code Builder!
 
+![](assets/25-10-22.png)
+
 ### Challenge 1
 Add a footpath to either side of the road.
 
