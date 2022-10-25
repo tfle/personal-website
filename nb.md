@@ -112,7 +112,7 @@ We’re going to finish the code for building skyrises so we can make our own Mi
         student.classList.remove("btn-purple");
       };
       button.classList.add("btn-purple");
-      document.getElementById("selected-user").innerHTML = "<b>" + button.innerText + "</b>" + button.firstElementChild.innerText;
+      document.getElementById("selected-user").innerHTML = "<b>" + button.innerText + "</b>" + " <i>(" + button.id + domain + ")</i> " + button.firstElementChild.innerText;
     };
   });
 </script>
