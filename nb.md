@@ -67,7 +67,7 @@ Click your name to automagically copy your username.
 {: .selected-user}
 <p id="selected-user">None</p>
 
-If your name appeared above, your username has been copied. You can now try pasting it into **Minecraft Education**.
+If your name appears above, your username has been copied. Just right-click and paste into **Minecraft Education**.
 
 {: .did-you-know}
 The shortcut for paste is **Control + V**
