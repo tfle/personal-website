@@ -65,7 +65,7 @@ Click your name to automagically copy your username.
 </div>
 
 {: .selected-user}
-<p id="selected-user">None</p>A
+<p id="selected-user">None</p>
 
 Open **Minecraft Education**, paste in your username and type in the password (it's on the whiteboard)!
 
@@ -112,7 +112,7 @@ We’re going to finish the code for building skyrises so we can make our own Mi
         student.classList.remove("btn-purple");
       };
       button.classList.add("btn-purple");
-      document.getElementById("seleted-user").innerHTML = "<b>" + button.innerText + "</b>" + button.firstElementChild.innerText;
+      document.getElementById("selected-user").innerHTML = "<b>" + button.innerText + "</b>" + button.firstElementChild.innerText;
     };
   });
 </script>
