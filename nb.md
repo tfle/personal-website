@@ -72,7 +72,7 @@ If your name appeared above, your username has been copied. You can now try past
 {: .did-you-know}
 The shortcut for paste is **Control + V**
 
-What's the password? Check the whiteboard or ask an instructor!
+What's the password? Check the whiteboard ~~or ask an instructor~~!
 
 ---
 
