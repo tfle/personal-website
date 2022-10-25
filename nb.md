@@ -90,6 +90,14 @@ You can convert the code from *Python* to *Blocks* by clicking on the 🧩 in th
 We’re going to finish the code for building skyrises so we can make our own Minecraft city!
 ![](https://static.planetminecraft.com/files/resource_media/screenshot/1834/2018-08-23-17-51-14-copy-1535046684.png)
 
+### Challenge 1 (Medium)
+Make your skyscraper eco-friendly by adding a layer of oak leaves for each story.
+![](assets/25-10-22-2.png)
+
+### Challenge 2 (Hard)
+Make the oak leaves grow one block out from the skyscraper on all sides.
+![](assets/25-10-22-3.png)
+
 <script>
   const sortList = list => [...list].sort((a, b) => {
     const A = a.textContent, B = b.textContent;
