@@ -64,6 +64,9 @@ Click your name to automagically copy your username.
   -->
 </div>
 
+{: .selected-user}
+<p id="selected-user">None</p>A
+
 Open **Minecraft Education**, paste in your username and type in the password (it's on the whiteboard)!
 
 {: .did-you-know}
@@ -71,7 +74,7 @@ The shortcut for paste is **Control + V**
 
 ---
 
-## Last Week
+## Last Week's Code
 This is the code we finished last week in *Python*. If you need to catch up, you can copy the *Python* code into the **Minecraft Code Builder**.
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://minecraft.makecode.com/#pub:_d6PcmiFMhTz8" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
@@ -109,6 +112,7 @@ We’re going to finish the code for building skyrises so we can make our own Mi
         student.classList.remove("btn-purple");
       };
       button.classList.add("btn-purple");
+      document.getElementById("seleted-user").innerHTML = "<b>" + button.innerText + "</b>" + button.firstElementChild.innerText;
     };
   });
 </script>
