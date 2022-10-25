@@ -36,31 +36,31 @@ Someone always asks what the game pin is, even though it's up on the screen.
 Click your name to automagically copy your username.
 
 <div id="roll">
-  <button class="btn mr-4 mb-4" id="instructor23">Tony</button>
-  <button class="btn mr-4 mb-4" id="instructor23">Zoe</button>
-  <button class="btn mr-4 mb-4" id="instructor23">Anna</button>
-  <button class="btn mr-4 mb-4" id="junior1">Ethan</button>
-  <button class="btn mr-4 mb-4" id="junior2">Noah M.</button>
-  <button class="btn mr-4 mb-4" id="junior3">Penelope</button>
-  <button class="btn mr-4 mb-4" id="junior4">Primrose</button>
-  <button class="btn mr-4 mb-4" id="junior5">Emily</button>
-  <button class="btn mr-4 mb-4" id="junior6">Harrison</button>
-  <button class="btn mr-4 mb-4" id="junior7">Audrey</button>
-  <button class="btn mr-4 mb-4" id="junior8">Angus</button>
-  <button class="btn mr-4 mb-4" id="junior9">Vihan</button>
-  <button class="btn mr-4 mb-4" id="junior10">Edward</button>
-  <button class="btn mr-4 mb-4" id="junior11">William Wo.</button>
-  <button class="btn mr-4 mb-4" id="junior12">Kai</button>
-  <button class="btn mr-4 mb-4" id="junior13">Marcus</button>
-  <button class="btn mr-4 mb-4" id="junior14">Emilie</button>
-  <button class="btn mr-4 mb-4" id="junior15">Pao Pao</button>
-  <button class="btn mr-4 mb-4" id="junior16">William Wa.</button>
-  <button class="btn mr-4 mb-4" id="junior17">Simo</button>
-  <button class="btn mr-4 mb-4" id="junior18">Mason</button>
-  <button class="btn mr-4 mb-4" id="junior19">Noah V.</button>
+  <button class="btn mr-4 mb-4" id="instructor23">Tony<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="instructor23">Zoe<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="instructor23">Anna<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior1">Ethan<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior2">Noah M.<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior3">Penelope<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior4">Primrose<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior5">Emily<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior6">Harrison<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior7">Audrey<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior8">Angus<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior9">Vihan<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior10">Edward<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior11">William Wo.<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior12">Kai<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior13">Marcus<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior14">Emilie<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior15">Pao Pao<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior16">William Wa.<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior17">Simo<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior18">Mason<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior19">Noah V.<span style="display:none"></span></button>
   <!--
-  <button class="btn mr-4 mb-4" id="junior20">Spare 1</button>
-  <button class="btn mr-4 mb-4" id="junior21">Spare 2</button>
+  <button class="btn mr-4 mb-4" id="junior20">Spare 1<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior21">Spare 2<span style="display:none"></span></button>
   -->
 </div>
 
