@@ -3,7 +3,7 @@ layout: default
 title: Junior Engineers with Tony
 nav_order: 1
 description: "This is the website you go to if you want to know who Tony Le is." 
-permalink: /nb
+permalink: /lcw
 nav_exclude: true
 search_exclude: true
 ---
