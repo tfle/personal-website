@@ -54,14 +54,6 @@ What's the password? Check the whiteboard ~~or ask an instructor~~!
 
 ---
 
-~~## Last Week's Code
-This is the code we finished last week in *Python*. If you need to catch up, you can copy the *Python* code into the **Minecraft Code Builder**.
-
-{: .did-you-know}
-You can convert the code from *Python* to *Blocks* by clicking on the 🧩 in the **Code Builder**. Try converting it above!~~
-
----
-
 ## Today's Activity
 We’re going to be building skyrises in the Code Builder!
 ![](https://static.planetminecraft.com/files/resource_media/screenshot/1834/2018-08-23-17-51-14-copy-1535046684.png)
