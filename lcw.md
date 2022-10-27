@@ -64,11 +64,16 @@ What's the password? Check the whiteboard ~~or ask an instructor~~!
 ---
 
 ## Next Week's Activity
-In the spirit of Halloween, we're going to be making a survival game featuring player levels! For all the keen people, here's the code we're going to be doing:
-
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://minecraft.makecode.com/#pub:_E2E9pd4KtJEx" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+In the spirit of Halloween, we're going to be making a survival game featuring player levels!
 
 ![](assets/27-10-22.png)
+
+---
+
+## Next Week's Code
+If you're really keen, have a look at the code for next week's activity. I'll be explaining it all next week, so don't fret if this looks like a lot!
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://minecraft.makecode.com/#pub:_E2E9pd4KtJEx" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 ### Challenge 1 (Easy)
 Set the spawn point for everyone in a safe zone where they can get ready with armour and weapons.
