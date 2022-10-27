@@ -59,16 +59,30 @@ What's the password? Check the whiteboard ~~or ask an instructor~~!
 ---
 
 ## Today's Activity
-We’re going to be building skyrises in the Code Builder!
-![](https://static.planetminecraft.com/files/resource_media/screenshot/1834/2018-08-23-17-51-14-copy-1535046684.png)
+In the spirit of Halloween, we're going to be making a survival game featuring player levels!
 
-### Challenge 1 (Medium)
-Make your skyscraper eco-friendly by adding a layer of oak leaves for each story.
-![](assets/25-10-22-2.png)
+![](assets/27-10-22.png)
 
-### Challenge 2 (Hard)
-Make the oak leaves grow one block out from the skyscraper on all sides.
-![](assets/25-10-22-3.png)
+### Challenge 1 (Easy)
+Set the spawn point for everyone in a safe zone where they can get ready with armour and weapons.
+
+{: .hint}
+Use /setworldspawn
+
+### Challenge 2 (Medium)
+Change the message that appears based on the level the player has reached. For example, say "[player name] is legendary!" when the player reaches Level 20.
+
+{: .hint}
+You'll need to track player levels and use conditional statement(s).
+
+### Challenge 3 (Medium)
+Implement a difficulty curve where once the player reaches a certain level, more waves of witches spawn.
+
+{: .hint}
+You'll need to track player levels and use conditional statement(s).
+
+### Challenge 4 (Hard/Creative)
+Think about when the game "ends", how this might be tracked, and what happens when the player "wins". Implement these features.
 
 <script>
   const sortList = list => [...list].sort((a, b) => {
