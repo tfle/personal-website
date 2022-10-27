@@ -40,6 +40,10 @@ Click your name to automagically copy your username.
   <button class="btn mr-4 mb-4" id="junior142">Amir<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior143">Benny<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior144">Andrew<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior145">Student 4<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior146">Student 5<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior147">Student 6<span style="display:none"></span></button>
+
 </div>
 
 {: .selected-user}
