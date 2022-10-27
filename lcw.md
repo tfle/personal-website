@@ -75,6 +75,12 @@ If you're really keen, have a look at the code for next week's activity. I'll be
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://minecraft.makecode.com/#pub:_E2E9pd4KtJEx" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
+{: .did-you-know}
+You can convert the code from *Python* to *Blocks* by clicking on the 🧩 in the **Code Builder**. Try converting it above!
+
+---
+## Challenges
+
 ### Challenge 1 (Easy)
 Set the spawn point for everyone in a safe zone where they can get ready with armour and weapons.
 
