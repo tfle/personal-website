@@ -70,7 +70,7 @@ Set the spawn point for everyone in a safe zone where they can get ready with ar
 Use /setworldspawn
 
 ### Challenge 2 (Medium)
-Change the message that appears based on the level the player has reached. For example, say "[player name] is legendary!" when the player reaches Level 20.
+Output an additional message if the player reaches a certain level. For example, say "[player name] is legendary!" when the player reaches Level 20.
 
 {: .hint}
 You'll need to track player levels and use conditional statement(s).
