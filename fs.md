@@ -108,7 +108,7 @@ Think about when the game "ends", how this might be tracked, and what happens wh
 
 ---
 
-## Post-lesson Code
+## Post-Lesson Code
 
 Well done on completing your game! If it isn't working as expected, check your code and compare it to mine. Next week, Anna will explain how she might tackle some of the challenges.
 
