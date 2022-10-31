@@ -106,6 +106,17 @@ You'll need to track player levels and use conditional statement(s).
 ### Challenge 4 (Hard/Creative)
 Think about when the game "ends", how this might be tracked, and what happens when the player "wins". Implement these features.
 
+---
+
+## Post-lesson Code
+
+Well done on completing your game! If it isn't working as expected, check your code and compare it to mine. Next week, Anna will explain how she might tackle some of the challenges.
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://minecraft.makecode.com/#pub:_E2E9pd4KtJEx" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+
+{: .did-you-know}
+You can convert the code from *Python* to *Blocks* by clicking on the 🧩 in the **Code Builder**. Try converting it above!
+
 <script>
   const sortList = list => [...list].sort((a, b) => {
     const A = a.textContent, B = b.textContent;
