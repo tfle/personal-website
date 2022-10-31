@@ -59,46 +59,56 @@ Click your name to automagically copy your username.
 {: .selected-user}
 <p id="selected-user">None</p>
 
-Open **Minecraft Education**, paste in your username and type in the password (it's on the whiteboard)!
+If your name appears above, your username has been copied. Just right-click and
+paste into **Minecraft Education**
 
 {: .did-you-know}
 The shortcut for paste is **Control + V**
 
----
-
-## Learning Recap
-
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/7xqot4oA2vo" title="Minecraft Events Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+What's the password? Check the whiteboard ~~or ask an instructor~~!
 
 ---
 
-## Last Week's Code
-This is the code we finished last week in *Python*. If you need to catch up, you can copy the *Python* code into the **Minecraft Code Builder**.
+https://youtu.be/pNJi3S4G04w?t=3
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://minecraft.makecode.com/#pub:_YfceRR7qvKDW" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+---
 
-{: .did-you-know}
-You can convert the code from *Python* to *Blocks* by clicking on the 🧩 in the **Code Builder**. Try converting it above!
+## Variables
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe width="560" height="315" src="https://www.youtube.com/embed/pNJi3S4G04w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ---
 
 ## Today's Activity
-Make sure your Yellow Brick Road code works, then try it out with different *Player Events* like flying.
+In the spirt of Halloween, we're going to be making a survival game featuring
+player levels!
 
-### Challenges
-Make a rainbow appear behind you when you fly!
+![](assets/27-10-22.png)
 
-![](https://upload.wikimedia.org/wikipedia/en/e/ed/Nyan_cat_250px_frame.PNG)
+---
 
-{: .hint}
-Think about the order of colours in the rainbow and how you can stack each colour.
+## Challenges
 
-Make a flying carpet!
-
-![](https://upload.wikimedia.org/wikipedia/commons/5/55/Vasnetsov_samolet.jpg)
+### Challenge 1 (Easy)
+Set the spawn point for everyone in a safe zone where they can get ready with armour and weapons.
 
 {: .hint}
-You'll need to replace the blocks behind you with air.
+Use /setworldspawn
+
+### Challenge 2 (Medium)
+Output an additional message if the player reaches a certain level. For example, say "[player name] is legendary!" when the player reaches Level 20.
+
+{: .hint}
+You'll need to track player levels and use conditional statement(s).
+
+### Challenge 3 (Medium)
+Implement a difficulty curve where once the player reaches a certain level, more waves of witches spawn.
+
+{: .hint}
+You'll need to track player levels and use conditional statement(s).
+
+### Challenge 4 (Hard/Creative)
+Think about when the game "ends", how this might be tracked, and what happens when the player "wins". Implement these features.
 
 <script>
   const sortList = list => [...list].sort((a, b) => {
