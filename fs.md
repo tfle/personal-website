@@ -69,10 +69,6 @@ What's the password? Check the whiteboard ~~or ask an instructor~~!
 
 ---
 
-https://youtu.be/pNJi3S4G04w?t=3
-
----
-
 ## Variables
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe width="560" height="315" src="https://www.youtube.com/embed/pNJi3S4G04w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -87,7 +83,7 @@ player levels!
 
 ---
 
-## Challenges
+## Today's Challenges
 
 ### Challenge 1 (Easy)
 Set the spawn point for everyone in a safe zone where they can get ready with armour and weapons.
