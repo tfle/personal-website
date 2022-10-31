@@ -71,7 +71,7 @@ What's the password? Check the whiteboard ~~or ask an instructor~~!
 
 ## Variables
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe width="560" height="315" src="https://www.youtube.com/embed/pNJi3S4G04w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe width="560" height="315" src="https://www.youtube.com/embed/pNJi3S4G04w?t=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ---
 
