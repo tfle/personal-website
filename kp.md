@@ -37,9 +37,9 @@ Click your name to automagically copy your username.
 
 <div id="roll">
   <button class="btn mr-4 mb-4" id="instructor15">Tony<span style="display:none"></span></button>
-  <button class="btn mr-4 mb-4" id="junior168">Chi Dat<span style="display:none"> 🥉</span></button>
-  <button class="btn mr-4 mb-4" id="junior169">Minh Dat<span style="display:none"> 🥇</span></button>
-  <button class="btn mr-4 mb-4" id="junior170">Thomas<span style="display:none"> 🥈</span></button>
+  <button class="btn mr-4 mb-4" id="junior168">Chi Dat<span style="display:none"> 🥉 🎃</span></button>
+  <button class="btn mr-4 mb-4" id="junior169">Minh Dat<span style="display:none"> 🥇 🎃</span></button>
+  <button class="btn mr-4 mb-4" id="junior170">Thomas<span style="display:none"> 🥈 🎃</span></button>
   <button class="btn mr-4 mb-4" id="junior171">Tim<span style="display:none"></span></button>
   <!--
   <button class="btn mr-4 mb-4" id="junior172">Spare<span style="display:none"></span></button>
