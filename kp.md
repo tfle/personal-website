@@ -56,26 +56,42 @@ The shortcut for paste is **Control + V**
 
 ---
 
-## Last Week's Code
-This is the code we finished last week in *Python*. If you need to catch up, you can copy the *Python* code into the **Minecraft Code Builder**.
+## Variables
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://minecraft.makecode.com/#pub:_JkR94cPWcTkp" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
-
-{: .did-you-know}
-You can convert the code from *Python* to *Blocks* by clicking on the 🧩 in the **Code Builder**. Try converting it above!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pNJi3S4G04w?t=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
 ## Today's Activity
-Make the road exactly as seen in the image below in the Code Builder!
+In the spirt of Halloween, we're going to be making a survival game featuring
+player levels!
 
-![](assets/25-10-22.png)
+![](assets/27-10-22.png)
 
-### Challenge 1
-Add a footpath to either side of the road.
+---
 
-### Challenge 2
-Create a T intersection.
+## Today's Challenges
+
+### Challenge 1 (Easy)
+Set the spawn point for everyone in a safe zone where they can get ready with armour and weapons.
+
+{: .hint}
+Use /setworldspawn
+
+### Challenge 2 (Medium)
+Output an additional message if the player reaches a certain level. For example, say "[player name] is legendary!" when the player reaches Level 20.
+
+{: .hint}
+You'll need to track player levels and use conditional statement(s).
+
+### Challenge 3 (Medium)
+Implement a difficulty curve where once the player reaches a certain level, more waves of witches spawn.
+
+{: .hint}
+You'll need to track player levels and use conditional statement(s).
+
+### Challenge 4 (Hard/Creative)
+Think about when the game "ends", how this might be tracked, and what happens when the player "wins". Implement these features.
 
 {: .hint}
 Create another road and join it to your first road.
