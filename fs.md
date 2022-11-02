@@ -41,12 +41,12 @@ Click your name to automagically copy your username.
   <button class="btn mr-4 mb-4" id="junior32">Luka<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior33">Thomas<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior34">Rachel<span style="display:none"></span></button>
-  <button class="btn mr-4 mb-4" id="junior35">Lam<span style="display:none"> 🥇</span></button>
+  <button class="btn mr-4 mb-4" id="junior35">Lam<span style="display:none"> 🥇🥈</span></button>
   <button class="btn mr-4 mb-4" id="junior36">Zeth<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior37">Kris<span style="display:none"></span></button>
-  <button class="btn mr-4 mb-4" id="junior137">Isabella<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior137">Isabella<span style="display:none"> 🥉</span></button>
   <button class="btn mr-4 mb-4" id="junior138">Shanivi<span style="display:none"></span></button>
-  <button class="btn mr-4 mb-4" id="junior139">Jayden<span style="display:none"> 🥈</span></button>
+  <button class="btn mr-4 mb-4" id="junior139">Jayden<span style="display:none"> 🥈🥇</span></button>
   <button class="btn mr-4 mb-4" id="junior140">Ilsa<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior141">Leopold<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior142">Harrison<span style="display:none"></span></button>
@@ -105,6 +105,17 @@ You'll need to track player levels and use conditional statement(s).
 
 ### Challenge 4 (Hard/Creative)
 Think about when the game "ends", how this might be tracked, and what happens when the player "wins". Implement these features.
+
+---
+
+## Post-Lesson Code
+
+Well done on completing your game! If it isn't working as expected, check your code and compare it to mine. Next week, Anna will explain how she might tackle some of the challenges.
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://minecraft.makecode.com/#pub:_E2E9pd4KtJEx" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+
+{: .did-you-know}
+You can convert the code from *Python* to *Blocks* by clicking on the 🧩 in the **Code Builder**. Try converting it above!
 
 <script>
   const sortList = list => [...list].sort((a, b) => {
