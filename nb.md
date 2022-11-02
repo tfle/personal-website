@@ -98,6 +98,36 @@ Make your skyscraper eco-friendly by adding a layer of oak leaves for each story
 Make the oak leaves grow one block out from the skyscraper on all sides.
 ![](assets/25-10-22-3.png)
 
+---
+
+## Halloween Code
+
+```python
+count = 0
+
+def on_block_broken_jack_o_lantern():
+    global count
+    count += 1
+    player.say("Pumpkins: " + str(count))
+    mobs.clear_effect(mobs.target(NEAREST_PLAYER))
+    mobs.apply_effect(REGENERATION, mobs.target(NEAREST_PLAYER), 2, 2)
+blocks.on_block_broken(JACK_O_LANTERN, on_block_broken_jack_o_lantern)
+
+def on_on_chat():
+    global count
+    player.say("Loading...")
+    count = 0
+    gameplay.set_difficulty(EASY)
+    gameplay.set_game_mode(SURVIVAL, mobs.target(ALL_PLAYERS))
+    for index in range(10):
+        blocks.place(JACK_O_LANTERN,
+            positions.ground_position(randpos(pos(-10, 0, -10), pos(10, 0, 10))))
+    for index2 in range(2):
+        mobs.spawn(mobs.monster(WITCH),
+            positions.ground_position(randpos(pos(-10, 0, -10), pos(10, 0, 10))))
+player.on_chat("new", on_on_chat)
+```
+
 <script>
   const sortList = list => [...list].sort((a, b) => {
     const A = a.textContent, B = b.textContent;
