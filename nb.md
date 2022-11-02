@@ -88,10 +88,13 @@ You can convert the code from *Blocks* to *Python* (and vice versa) by clicking 
 ---
 
 ## Today's Project
-In the spirt of Halloween, we're going to be making a survival game featuring
-player levels!
+In the spirt of Halloween, we're going to be making a survival game featuring player levels!
 
 ![](assets/27-10-22.png)
+
+Once you've completed the base game, have a go at some of the challenges below.
+If you've had an honest attempt and feel really stuck, ask one of the instructors
+for another hint or two.
 
 ### Today's Challenges
 
