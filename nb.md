@@ -87,6 +87,39 @@ You can convert the code from *Blocks* to *Python* (and vice versa) by clicking 
 
 ---
 
+## Today's Activity
+In the spirt of Halloween, we're going to be making a survival game featuring
+player levels!
+
+![](assets/27-10-22.png)
+
+---
+
+## Today's Challenges
+
+### Challenge 1 (Easy)
+Set the spawn point for everyone in a safe zone where they can get ready with armour and weapons.
+
+{: .hint}
+Use /setworldspawn
+
+### Challenge 2 (Medium)
+Output an additional message if the player reaches a certain level. For example, say "[player name] is legendary!" when the player reaches Level 20.
+
+{: .hint}
+You'll need to track player levels and use conditional statement(s).
+
+### Challenge 3 (Medium)
+Implement a difficulty curve where once the player reaches a certain level, more waves of witches spawn.
+
+{: .hint}
+You'll need to track player levels and use conditional statement(s).
+
+### Challenge 4 (Hard/Creative)
+Think about when the game "ends", how this might be tracked, and what happens when the player "wins". Implement these features.
+
+---
+
 ```python
 count = 0
 
