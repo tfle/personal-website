@@ -76,31 +76,16 @@ What's the password? Check the whiteboard ~~or ask an instructor~~!
 
 ---
 
-## Last Week's Code
-This is the code we finished last week in *Python*. If you need to catch up, you can copy the *Python* code into the **Minecraft Code Builder**.
+## Completed Projects
+If you want to review any code from previous weeks, click on the relevant project
+below.
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://minecraft.makecode.com/#pub:_d6PcmiFMhTz8" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+[Skyscraper](https://makecode.com/_3s5UXt51KJ3c){: .btn .btn-green }
 
 {: .did-you-know}
-You can convert the code from *Python* to *Blocks* by clicking on the 🧩 in the **Code Builder**. Try converting it above!
+You can convert the code from *Blocks* to *Python* (and vice versa) by clicking on the 🧩 in the **Code Builder**.
 
 ---
-
-## Today's Activity
-We’re going to finish the code for building skyrises so we can make our own Minecraft city!
-![](https://static.planetminecraft.com/files/resource_media/screenshot/1834/2018-08-23-17-51-14-copy-1535046684.png)
-
-### Challenge 1 (Medium)
-Make your skyscraper eco-friendly by adding a layer of oak leaves for each story.
-![](assets/25-10-22-2.png)
-
-### Challenge 2 (Hard)
-Make the oak leaves grow one block out from the skyscraper on all sides.
-![](assets/25-10-22-3.png)
-
----
-
-## Halloween Code
 
 ```python
 count = 0
