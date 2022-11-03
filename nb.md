@@ -76,27 +76,76 @@ What's the password? Check the whiteboard ~~or ask an instructor~~!
 
 ---
 
-## Last Week's Code
-This is the code we finished last week in *Python*. If you need to catch up, you can copy the *Python* code into the **Minecraft Code Builder**.
+## Completed Projects
+If you want to review any code from previous weeks, click on the relevant project
+below.
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://minecraft.makecode.com/#pub:_d6PcmiFMhTz8" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+[Skyscraper](https://makecode.com/_3s5UXt51KJ3c){: .btn .btn-green }
 
 {: .did-you-know}
-You can convert the code from *Python* to *Blocks* by clicking on the 🧩 in the **Code Builder**. Try converting it above!
+You can convert the code from *Blocks* to *Python* (and vice versa) by clicking on the 🧩 in the **Code Builder**.
 
 ---
 
-## Today's Activity
-We’re going to finish the code for building skyrises so we can make our own Minecraft city!
-![](https://static.planetminecraft.com/files/resource_media/screenshot/1834/2018-08-23-17-51-14-copy-1535046684.png)
+## Today's Project
+In the spirt of Halloween, we're going to be making a survival game featuring player levels!
 
-### Challenge 1 (Medium)
-Make your skyscraper eco-friendly by adding a layer of oak leaves for each story.
-![](assets/25-10-22-2.png)
+![](assets/27-10-22.png)
 
-### Challenge 2 (Hard)
-Make the oak leaves grow one block out from the skyscraper on all sides.
-![](assets/25-10-22-3.png)
+Once you've completed the base game, have a go at some of the challenges below.
+If you've had an honest attempt and feel really stuck, ask one of the instructors
+for another hint or two.
+
+### Today's Challenges
+
+#### Challenge 1 (Easy)
+Set the spawn point for everyone in a safe zone where they can get ready with armour and weapons.
+
+{: .hint}
+Use /setworldspawn
+
+#### Challenge 2 (Medium)
+Output an additional message if the player reaches a certain level. For example, say "[player name] is legendary!" when the player reaches Level 20.
+
+{: .hint}
+You'll need to track player levels and use conditional statement(s).
+
+#### Challenge 3 (Medium)
+Implement a difficulty curve where once the player reaches a certain level, more waves of witches spawn.
+
+{: .hint}
+You'll need to track player levels and use conditional statement(s).
+
+#### Challenge 4 (Hard/Creative)
+Think about when the game "ends", how this might be tracked, and what happens when the player "wins". Implement these features.
+
+---
+
+```python
+count = 0
+
+def on_block_broken_jack_o_lantern():
+    global count
+    count += 1
+    player.say("Pumpkins: " + str(count))
+    mobs.clear_effect(mobs.target(NEAREST_PLAYER))
+    mobs.apply_effect(REGENERATION, mobs.target(NEAREST_PLAYER), 2, 2)
+blocks.on_block_broken(JACK_O_LANTERN, on_block_broken_jack_o_lantern)
+
+def on_on_chat():
+    global count
+    player.say("Loading...")
+    count = 0
+    gameplay.set_difficulty(EASY)
+    gameplay.set_game_mode(SURVIVAL, mobs.target(ALL_PLAYERS))
+    for index in range(10):
+        blocks.place(JACK_O_LANTERN,
+            positions.ground_position(randpos(pos(-10, 0, -10), pos(10, 0, 10))))
+    for index2 in range(2):
+        mobs.spawn(mobs.monster(WITCH),
+            positions.ground_position(randpos(pos(-10, 0, -10), pos(10, 0, 10))))
+player.on_chat("new", on_on_chat)
+```
 
 <script>
   const sortList = list => [...list].sort((a, b) => {
