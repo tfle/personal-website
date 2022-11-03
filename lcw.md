@@ -65,43 +65,32 @@ What's the password? Check the whiteboard ~~or ask an instructor~~!
 
 ---
 
-## Next Week's Activity
+## Today's Activity
 In the spirit of Halloween, we're going to be making a survival game featuring player levels!
 
 ![](assets/27-10-22.png)
 
----
+### Challenges
 
-## Next Week's Code
-If you're really keen, have a look at the code for next week's activity. I'll be explaining it all next week, so don't fret if this looks like a lot!
-
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://minecraft.makecode.com/#pub:_E2E9pd4KtJEx" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
-
-{: .did-you-know}
-You can convert the code from *Python* to *Blocks* by clicking on the 🧩 in the **Code Builder**. Try converting it above!
-
----
-## Challenges
-
-### Challenge 1 (Easy)
+#### Challenge 1 (Easy)
 Set the spawn point for everyone in a safe zone where they can get ready with armour and weapons.
 
 {: .hint}
 Use /setworldspawn
 
-### Challenge 2 (Medium)
+#### Challenge 2 (Medium)
 Output an additional message if the player reaches a certain level. For example, say "[player name] is legendary!" when the player reaches Level 20.
 
 {: .hint}
 You'll need to track player levels and use conditional statement(s).
 
-### Challenge 3 (Medium)
+#### Challenge 3 (Medium)
 Implement a difficulty curve where once the player reaches a certain level, more waves of witches spawn.
 
 {: .hint}
 You'll need to track player levels and use conditional statement(s).
 
-### Challenge 4 (Hard/Creative)
+#### Challenge 4 (Hard/Creative)
 Think about when the game "ends", how this might be tracked, and what happens when the player "wins". Implement these features.
 
 <script>
