@@ -3,10 +3,17 @@ description: This is the website you go to if you want to know who Tony Le is.
 url: "https://tonyle.com" 
 remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
 
+# Enable Mermaid.js
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.2.0"
+
 # Upper right corner of every page
 aux_links:
   "contact@tonyle.com":
     - "mailto:contact@tonyle.com"
+
 # Bottom right corner of every page
 search:
   button: true
