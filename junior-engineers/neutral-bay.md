@@ -27,19 +27,19 @@ Click on your name to copy your username to the clipboard.
   <button class="btn mr-4 mb-4" id="instructor23">Ginny<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior1">Ethan<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior2">Noah<span style="display:none"></span></button>
-  <button class="btn mr-4 mb-4" id="junior3">Penelope<span style="display:none">🎃</span></button>
+  <button class="btn mr-4 mb-4" id="junior3">Penelope<span style="display:none">⭐</span></button>
   <button class="btn mr-4 mb-4" id="junior4">Primrose<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior5">Emily<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior6">Harrison<span style="display:none"></span></button>
-  <button class="btn mr-4 mb-4" id="junior7">Audrey<span style="display:none">🎃</span></button>
+  <button class="btn mr-4 mb-4" id="junior7">Audrey<span style="display:none">⭐</span></button>
   <button class="btn mr-4 mb-4" id="junior8">Angus<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior9">Vihan<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior10">Edward<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior11">William Wo.<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior12">Kai<span style="display:none"></span></button>
-  <button class="btn mr-4 mb-4" id="junior13">Marcus<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior13">Marcus<span style="display:none">⭐</span></button>
   <button class="btn mr-4 mb-4" id="junior14">Emilie<span style="display:none"></span></button>
-  <button class="btn mr-4 mb-4" id="junior15">Pao Pao<span style="display:none">🎃</span></button>
+  <button class="btn mr-4 mb-4" id="junior15">Pao Pao<span style="display:none">⭐⭐</span></button>
   <button class="btn mr-4 mb-4" id="junior16">William Wa.<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior17">Simo<span style="display:none"></span></button>
   <!--
