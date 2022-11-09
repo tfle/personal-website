@@ -79,55 +79,60 @@ Check in with an instructor if you finish a challenge to get it ticked off!
     const list = ul.querySelectorAll("button");
     ul.append(...sortList(list));
   });
-</script>
-<script>
-  const domain = "@jnreng.onmicrosoft.com";
+
   const roll = document.getElementById("roll");
   roll.addEventListener("click", function(event) {
     if (event.target.nodeName == "BUTTON") {
-      const button = event.target;
-      navigator.clipboard.writeText(button.id + domain);
-      for (let i = 0; i < roll.children.length; i++) {
-        let student = roll.children[i];
+      const clickedButton = event.target;
+      navigator.clipboard.writeText(clickedButton.id + "@jnreng.onmicrosoft.com");
+     
+      const students = roll.children;
+      for (let i = 0; i < students.length; i++) {
+        let student = students[i];
         student.classList.remove("btn-purple");
       }
-      button.classList.add("btn-purple");
-      const user = "<span class='label label-purple'>"  + button.innerText + "</span>";
-      const awardsArray = [...button.firstElementChild.innerText]; 
+      clickedButton.classList.add("btn-purple");
 
-      let awardsString = "";
-      for (let i = 0; i < awardsArray.length; i++) {
-        awardsString += "<span class='label label-purple'>" + awardsArray[i] + "</span>";
+      const studentLabel = "<span class='label label-purple'>"  + clickedButton.innerText + "</span>";
+      const studentAwards = [...clickedButton.firstElementChild.innerText]; 
+      let awardsLabel = "";
+      for (let i = 0; i < studentAwards.length; i++) {
+        awardsLabel += "<span class='label label-purple'>" + studentAwards[i] + "</span>";
       }
+      document.getElementById("welcome").innerHTML = "Welcome " + studentLabel + awardsLabel;
 
-      document.getElementById("welcome").innerHTML = "Welcome " + user + awardsString;
-      const challengeList = document.getElementsByClassName("task-list-item");
+      const challenges = document.getElementsByClassName("task-list-item");
       let challengeCount = 0;
-      for (let i = 0; i < challengeList.length; i++) {
-        if (awardsArray.includes(challengeList[i].innerText.split(" ")[0])) {
-          challengeList[i].firstChild.setAttribute("checked", "checked");
+      for (let i = 0; i < challenges.length; i++) {
+        let award = challenges[i].innerText.split(" ")[0];
+        let challengeCheckbox = challenges[i].firstChild;
+        if (studentAwards.includes(award)) {
+          challengeCheckbox.setAttribute("checked", "checked");
           challengeCount += 1;
         } else {
-          challengeList[i].firstChild.removeAttribute("checked");
+          challengeCheckbox.removeAttribute("checked");
         }
       }
-      document.getElementById("challenges").innerHTML = "Challenges " + "<span class='label label-purple'>" + challengeCount + "/" + challengeList.length + "</span>";
+      const challengeLabel = "<span class='label label-purple'>" + challengeCount + "/" + challenges.length + "</span>";
+      document.getElementById("challenges").innerHTML = "Challenges " + challengeLabel;
     }
   });
-</script>
-<script>
+
   const projectList = document.getElementById("project-list");
   projectList.addEventListener("click", function(event) {
     if (event.target.nodeName == "BUTTON") {
-      const button = event.target;
-      for (let i = 0; i < projectList.children.length; i++) {
-        let project = projectList.children[i];
+      const clickedButton = event.target;
+      const projects = projectList.children;
+      for (let i = 0; i < projects.length; i++) {
+        let project = projects[i];
         project.classList.remove("btn-purple");
       }
-      button.classList.add("btn-purple");
-      const projectLabel = "<span class='label label-purple'>"  + button.innerText + "</span>";
+      clickedButton.classList.add("btn-purple");
+
+      const projectLabel = "<span class='label label-purple'>"  + clickedButton.innerText + "</span>";
       document.getElementById("projects").innerHTML = "Projects " + projectLabel;
-      document.getElementsByTagName("iframe")[0].src = button.getAttribute("id");
+
+      document.getElementsByTagName("iframe")[0].src = clickedButton.getAttribute("id");
     }
   });
 </script>
