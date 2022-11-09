@@ -1,12 +1,13 @@
 ---
 layout: default
-title: About
+title: Home
 nav_order: 1
 description: "This is the website you go to if you want to know who Tony Le is." 
 permalink: /
 ---
 
-# About
+# Welcome to my humble abode
+{: .fs-9 }
 
 I am a Master of IT student at [UNSW](https://www.unsw.edu.au). You may also know me from [USYD](https://www.sydney.edu.au), where I dabbled in Medical Physics, or [ANU](https://www.anu.edu.au), where I majored in Astronomy. 
 {: .fs-6 .fw-300 }
