@@ -26,19 +26,19 @@ Click on your name to copy your username to the clipboard.
   <button class="btn mr-4 mb-4" id="junior32">Luka<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior33">Thomas<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior34">Rachel<span style="display:none"></span></button>
-  <button class="btn mr-4 mb-4" id="junior35">Lam<span style="display:none">🥇🥈</span></button>
+  <button class="btn mr-4 mb-4" id="junior35">Lam<span style="display:none">⭐⭐</span></button>
   <button class="btn mr-4 mb-4" id="junior36">Zeth<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior37">Kris<span style="display:none"></span></button>
-  <button class="btn mr-4 mb-4" id="junior137">Isabella<span style="display:none">🥉</span></button>
+  <button class="btn mr-4 mb-4" id="junior137">Isabella<span style="display:none">⭐</span></button>
   <button class="btn mr-4 mb-4" id="junior138">Shanivi<span style="display:none"></span></button>
-  <button class="btn mr-4 mb-4" id="junior139">Jayden<span style="display:none">🥈🥇</span></button>
+  <button class="btn mr-4 mb-4" id="junior139">Jayden<span style="display:none">⭐⭐</span></button>
   <button class="btn mr-4 mb-4" id="junior140">Ilsa<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior141">Leopold<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior142">Harrison<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior143">Valentin<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior144">Aahana<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior145">Artemi<span style="display:none"></span></button>
-  <button class="btn mr-4 mb-4" id="junior146">Emmeline<span style="display:none">🥉</span></button>
+  <button class="btn mr-4 mb-4" id="junior146">Emmeline<span style="display:none">⭐</span></button>
 </div>
 
 ---
