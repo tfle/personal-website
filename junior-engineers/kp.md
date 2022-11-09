@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Lane Cove West
+title: Kensington
 parent: Junior Engineers
 nav_exclude: true
 search_exclude: true
 ---
 
-# Lane Cove West
+# Kensington
 {: .no_toc }
 
 ## Table of contents
@@ -21,20 +21,13 @@ search_exclude: true
 Click on your name to copy your username to the clipboard.
 
 <div id="roll">
-  <button class="btn mr-2 mb-2" id="instructor10">Tony<span style="display:none">🎃🔨</span></button>
-  <button class="btn mr-2 mb-2" id="junior142">Amir<span style="display:none"></span></button>
-  <button class="btn mr-2 mb-2" id="junior143">Benny<span style="display:none"></span></button>
-  <button class="btn mr-2 mb-2" id="junior144">Andrew<span style="display:none"></span></button>
-  <button class="btn mr-2 mb-2" id="junior215">William<span style="display:none"></span></button>
-  <button class="btn mr-2 mb-2" id="junior146">Adam<span style="display:none"></span></button>
-  <button class="btn mr-2 mb-2" id="junior147">Aarya<span style="display:none"></span></button>
-  <button class="btn mr-2 mb-2" id="junior212">Violet<span style="display:none"></span></button>
-  <button class="btn mr-2 mb-2" id="junior213">Thomas<span style="display:none"></span></button>
-  <button class="btn mr-2 mb-2" id="junior214">Anthony<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="instructor15">Tony<span style="display:none">🔨🎃</span></button>
+  <button class="btn mr-4 mb-4" id="junior168">Chi Dat<span style="display:none">🥉🎃</span></button>
+  <button class="btn mr-4 mb-4" id="junior169">Minh Dat<span style="display:none">🥇🎃</span></button>
+  <button class="btn mr-4 mb-4" id="junior170">Thomas<span style="display:none">🥈🎃</span></button>
+  <button class="btn mr-4 mb-4" id="junior171">Tim<span style="display:none"></span></button>
   <!--
-  <button class="btn mr-4 mb-4" id="junior215">~ Spare 2<span style="display:none"></span></button>
-  <button class="btn mr-4 mb-4" id="junior216">~ Spare 3<span style="display:none"></span></button>
-  <button class="btn mr-4 mb-4" id="junior217">~ Spare 4<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior172">Spare<span style="display:none"></span></button>
   -->
 </div>
 
@@ -44,9 +37,9 @@ Click on your name to copy your username to the clipboard.
 If you want to review any code from previous weeks, click on the relevant project.
 
 <div id="project-list">
+  <button class="btn mr-2 mb-2" id="https://minecraft.makecode.com/#pub:_Xi2FtRKYe5pr">Skyscrapers</button>
   <button class="btn mr-2 mb-2" id="https://minecraft.makecode.com/#pub:_TX0A5u6KbC9W">Halloween Survival</button>
   <!--
-  <button class="btn mr-2 mb-2" id="https://minecraft.makecode.com/#pub:_Xi2FtRKYe5pr">Skyscrapers</button>
   <button class="btn mr-2 mb-2" id="castles">Castles</button>
   <button class="btn mr-2 mb-2" id="secret-bunkers">Secret Bunkers</button>
   <button class="btn mr-2 mb-2" id="fountains">Fountains</button>
@@ -65,7 +58,7 @@ You can convert the code from *Blocks* to *JavaScript* or *Python* in the **Code
 ## Challenges
 Check in with an instructor if you finish a challenge to get it ticked off!
 
-- [ ] 🎃 Output the message "[player name] is legendary!" when the player reaches Level 10.
 - [ ] 🔨 Add a third repeating layer to your skyscraper (e.g. brick, glass, stone).
+- [ ] 🎃 Output the message "[player name] is legendary!" when the player reaches Level 10.
 
 <script src="{{site.url}}/junior-engineers/assets/class.js"></script>
