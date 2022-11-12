@@ -21,7 +21,7 @@ search_exclude: true
 Click on your name to copy your username to the clipboard.
 
 <div id="roll">
-  <button class="btn mr-4 mb-4" id="instructor15">Tony<span style="display:none">🏙️🎃🤐</span></button>
+  <button class="btn mr-4 mb-4" id="instructor15">Tony<span style="display:none">🧱🎃🤐</span></button>
   <button class="btn mr-4 mb-4" id="junior168">Chi Dat<span style="display:none">🥉🎃</span></button>
   <button class="btn mr-4 mb-4" id="junior169">Minh Dat<span style="display:none">🥇🎃</span></button>
   <button class="btn mr-4 mb-4" id="junior170">Thomas<span style="display:none">🥈🎃</span></button>
@@ -58,7 +58,7 @@ You can convert the code from *Blocks* to *JavaScript* or *Python* in the **Code
 ## Challenges
 Check in with an instructor if you finish a challenge to get it ticked off!
 
-- [ ] 🏙️ Add a third repeating layer to your Skyscraper (e.g. brick, glass, stone).
+- [ ] 🧱 Add a third repeating layer to your Skyscraper (e.g. brick, glass, stone).
 - [ ] 🎃 Output the message "[player name] is legendary!" when the player reaches Level 10.
 - [ ] 🤐 Add Glowstone to the ceiling of your Secret Bunker.
 
