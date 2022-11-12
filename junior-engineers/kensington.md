@@ -39,7 +39,7 @@ If you want to review any code from previous weeks, click on the relevant projec
 <div id="project-list">
   <button class="btn mr-2 mb-2" id="https://minecraft.makecode.com/#pub:_Xi2FtRKYe5pr">Skyscrapers</button>
   <button class="btn mr-2 mb-2" id="https://minecraft.makecode.com/#pub:_TX0A5u6KbC9W">Halloween Survival</button>
-  <button class="btn mr-2 mb-2" id="https://makecode.com/#pub:_UM188p1sKfHk">Secret Bunkers</button>
+  <button class="btn mr-2 mb-2" id="https://minecraft.makecode.com/#pub:_UM188p1sKfHk">Secret Bunkers</button>
   <!--
   <button class="btn mr-2 mb-2" id="castles">Castles</button>
   <button class="btn mr-2 mb-2" id="fountains">Fountains</button>
