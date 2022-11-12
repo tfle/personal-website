@@ -58,7 +58,8 @@ You can convert the code from *Blocks* to *JavaScript* or *Python* in the **Code
 ## Challenges
 Check in with an instructor if you finish a challenge to get it ticked off!
 
-- [ ] 🔨 Add a third repeating layer to your skyscraper (e.g. brick, glass, stone).
+- [ ] 🏙️ Add a third repeating layer to your Skyscraper (e.g. brick, glass, stone).
 - [ ] 🎃 Output the message "[player name] is legendary!" when the player reaches Level 10.
+- [ ] 🤐 Add Glowstone to the ceiling of your Secret Bunker.
 
 <script src="{{site.url}}/junior-engineers/assets/class.js"></script>
