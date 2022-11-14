@@ -23,6 +23,7 @@ Click on your name to copy your username to the clipboard.
 <div id="roll">
   <button class="btn mr-4 mb-4" id="instructor5">Tony<span style="display:none">🔨🎃</span></button>
   <button class="btn mr-4 mb-4" id="instructor5">Anna<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="instructor5">Baipor<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior32">Luka<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior33">Thomas<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior34">Rachel<span style="display:none"></span></button>
