@@ -40,8 +40,8 @@ If you want to review any code from previous weeks, click on the relevant projec
   <button class="btn mr-2 mb-2" id="https://minecraft.makecode.com/#pub:_Xi2FtRKYe5pr">Skyscrapers</button>
   <button class="btn mr-2 mb-2" id="https://minecraft.makecode.com/#pub:_TX0A5u6KbC9W">Halloween Survival</button>
   <button class="btn mr-2 mb-2" id="https://minecraft.makecode.com/#pub:_RHbcEYP6zF2t">Secret Bunkers</button>
+  <button class="btn mr-2 mb-2" id="https://minecraft.makecode.com/#pub:_DzzgxMFzi2Um">Castles</button>
   <!--
-  <button class="btn mr-2 mb-2" id="castles">Castles</button>
   <button class="btn mr-2 mb-2" id="fountains">Fountains</button>
   <button class="btn mr-2 mb-2" id="zoos">Zoos</button>
   <button class="btn mr-2 mb-2" id="ancient-temples">Ancient Temples</button>
@@ -61,5 +61,6 @@ Check in with an instructor if you finish a challenge to get it ticked off!
 - [ ] 🧱 Add a third repeating layer to your Skyscraper (e.g. brick, glass, stone).
 - [ ] 🎃 Output the message "[player name] is legendary!" when the player reaches Level 10.
 - [ ] 🤐 Add Glowstone to the ceiling of your Secret Bunker.
+- [ ] 🏰 Move the Builder down and to the middle of a wall to place a Crimson Door.
 
 <script src="{{site.url}}/junior-engineers/assets/class.js"></script>
