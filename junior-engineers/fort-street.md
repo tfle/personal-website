@@ -38,7 +38,7 @@ Click on your name to copy your username to the clipboard.
   <button class="btn mr-4 mb-4" id="junior142">Harrison<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior143">Valentin<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior144">Aahana<span style="display:none"></span></button>
-  <button class="btn mr-4 mb-4" id="junior145">Artemi<span style="display:none"></span></button>
+  <button class="btn mr-4 mb-4" id="junior147">Artemi<span style="display:none"></span></button>
   <button class="btn mr-4 mb-4" id="junior146">Emmeline<span style="display:none">⭐</span></button>
 </div>
 
