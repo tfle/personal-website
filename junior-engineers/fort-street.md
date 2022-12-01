@@ -72,5 +72,6 @@ Check in with an instructor if you finish a challenge to get it ticked off!
 - [ ] 🔨 Add a third repeating layer to your skyscraper (e.g. brick, glass, stone).
 - [ ] 🎃 Output the message "[player name] is legendary!" when the player reaches Level 10.
 - [ ] 🤐 Add Glowstone to the ceiling of your Secret Bunker using the Code Builder.
+- [ ] 🔥 Place the torches between the ridges instead of on top of them.
 
 <script src="{{site.url}}/junior-engineers/assets/class.js"></script>
