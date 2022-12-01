@@ -49,11 +49,11 @@ If you want to review any code from previous weeks, click on the relevant projec
   <button class="btn mr-2 mb-2" id="https://minecraft.makecode.com/#pub:_cgtgMMA8VJDj">Skyscrapers</button>
   <button class="btn mr-2 mb-2" id="https://minecraft.makecode.com/#pub:_RHbcEYP6zF2t">Secret Bunkers</button>
   <button class="btn mr-2 mb-2" id="https://minecraft.makecode.com/#pub:_DzzgxMFzi2Um">Castles</button>
+  <button class="btn mr-2 mb-2" id="https://minecraft.makecode.com/#pub:_8oWCVoCfmVwU">Ancient Temples</button>
   <!--
   <button class="btn mr-2 mb-2" id="secret-bunkers">Secret Bunkers</button>
   <button class="btn mr-2 mb-2" id="fountains">Fountains</button>
   <button class="btn mr-2 mb-2" id="zoos">Zoos</button>
-  <button class="btn mr-2 mb-2" id="ancient-temples">Ancient Temples</button>
   -->
 </div>
 
