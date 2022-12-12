@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Teaching
+title: Classes
 has_children: true
-permalink: /teaching
+permalink: /classes
 ---
 
-# Teaching
+# Classes
 
 Coding fundamentals in Python, JavaScript, Scratch and Microsoft MakeCode.
 {: .fs-6 .fw-300 }
