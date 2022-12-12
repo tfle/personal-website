@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Teaching
-nav_exclude: false
 has_children: true
 permalink: /teaching
 ---
