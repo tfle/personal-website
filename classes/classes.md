@@ -7,5 +7,4 @@ permalink: /classes
 
 # Classes
 
-Coding fundamentals in Python, JavaScript, Scratch and Microsoft MakeCode.
-{: .fs-6 .fw-300 }
+{ .fs-6 .fw-300 }
