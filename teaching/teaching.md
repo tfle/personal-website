@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Junior Engineers
+title: Teaching
 nav_exclude: true
 has_children: true
-permalink: /junior-engineers
+permalink: /teaching
 ---
 
-# Junior Engineers
+# Teaching
 
 Coding fundamentals in Python, JavaScript, Scratch and Microsoft MakeCode.
 {: .fs-6 .fw-300 }

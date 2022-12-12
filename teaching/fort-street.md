@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fort Street
-parent: Junior Engineers
+parent: Teaching
 nav_exclude: true
 search_exclude: true
 ---
