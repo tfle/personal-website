@@ -2,8 +2,6 @@
 layout: default
 title: Kensington
 parent: Teaching
-nav_exclude: true
-search_exclude: true
 ---
 
 # Kensington
