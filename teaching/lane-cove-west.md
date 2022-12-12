@@ -2,8 +2,6 @@
 layout: default
 title: Lane Cove West
 parent: Teaching
-nav_exclude: true
-search_exclude: true
 ---
 
 # Lane Cove West

@@ -2,8 +2,6 @@
 layout: default
 title: Neutral Bay
 parent: Teaching
-nav_exclude: true
-search_exclude: true
 ---
 
 # Neutral Bay

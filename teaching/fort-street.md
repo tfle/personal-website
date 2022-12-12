@@ -2,8 +2,6 @@
 layout: default
 title: Fort Street
 parent: Teaching
-nav_exclude: true
-search_exclude: true
 ---
 
 # Fort Street
