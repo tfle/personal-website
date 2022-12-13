@@ -7,5 +7,13 @@ permalink: /classes
 
 # Classes
 
-Coding fundamentals in Python, JavaScript, Scratch and Microsoft MakeCode.
+Current and past classes I have taught.
 {: .fs-6 .fw-300 }
+
+---
+
+## About
+
+These class webpages serve lesson content, files, and a schedule of upcoming topics. Students are able to review completed code and attempt additional programming challenges following the main lesson.
+
+
