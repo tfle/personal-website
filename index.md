@@ -9,7 +9,7 @@ permalink: /
 # Welcome to my humble abode
 {: .fs-9 }
 
-I am a Master of IT student at [UNSW](https://www.unsw.edu.au). You may also know me from [USYD](https://www.sydney.edu.au), where I dabbled in Medical Physics, or [ANU](https://www.anu.edu.au), where I majored in Astronomy. 
+I am a Master of IT student at [UNSW](https://www.unsw.edu.au). You may also know me from [USYD](https://www.sydney.edu.au), where I dabbled in Medical Physics, or [ANU](https://www.anu.edu.au), where I majored in Astronomy and Astrophysics.
 {: .fs-6 .fw-300 }
 
 I run [coding and robotics classes](/classes) in Sydney where I help primary and secondary school students develop their problem-solving capability, communication skills and programming ability. 
