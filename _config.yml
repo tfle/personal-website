@@ -28,18 +28,22 @@ mermaid:
 # Customise callouts
 callouts_level: quiet # or loud
 callouts:
-  selected-user:
-    title: Selected user
-    color: purple
-  hint:
-    title: Hint
+  highlight:
+    color: yellow
+  important:
+    title: Important
     color: blue
-  did-you-know:
-    title: Did you know?
+  new:
+    title: New
     color: green
-  task:
-    title: Task
+  note:
+    title: Note
     color: purple
   warning:
     title: Warning
     color: red
+  # Custom callout for teaching
+  did-you-know:
+    title: Did you know?
+    color: green
+
