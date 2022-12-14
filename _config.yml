@@ -10,9 +10,9 @@ search:
 aux_links:
   "contact@tonyle.com":
     - "mailto:contact@tonyle.com"
-back_to_top: true
+back_to_top: false
 back_to_top_text: "Back to top"
-footer_content: "Tony Le &copy; 2022 <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">CC BY-NC-SA 4.0</a>"
+# footer_content: "Tony Le &copy; 2022 <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">CC BY-NC-SA 4.0</a>"
 gh_edit_link: false
 gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/tfle/tfle.github.io"
