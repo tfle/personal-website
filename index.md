@@ -15,7 +15,7 @@ I am a Master of IT student at [UNSW](https://www.unsw.edu.au). You may also kno
 I run [coding and robotics classes](/classes) in Sydney where I help primary and secondary school students develop their problem-solving capability, communication skills and programming ability. 
 {: .fs-6 .fw-300 }
 
-When I'm not collecting degrees, or teaching in the classroom, I like to keep busy with [unimportant nonsense]() in the company of friends and family.
+When I'm not collecting degrees, or teaching in the classroom, I like to keep busy with [unimportant nonsense]().
 {: .fs-6 .fw-300 }
 
 [Connect on LinkedIn](https://www.linkedin.com/in/tonyfle){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2}
