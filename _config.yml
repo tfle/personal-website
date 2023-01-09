@@ -1,32 +1,40 @@
 # Site settings
+# Acccessed via {{ site.title }}, {{ site.email }}, {{ site.custom_variable }}
 title: Tony Le
-description: This is the website you go to if you want to know who Tony Le is
-url: "https://tonyle.com" 
+email: contact@tonyle.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is the website you go to if you want to know who Tony Le is
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: https://tonyle.com # the base hostname & protocol for your site, e.g. http://example.com
+# custom_variable:
 
-# Theming
-remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
+# Build settings
+theme: just-the-docs
+
+# plugins:
+#  - jekyll-feed
+
 search:
   button: true
+
 aux_links:
   "contact@tonyle.com":
     - "mailto:contact@tonyle.com"
+
 back_to_top: false
 back_to_top_text: "Back to top"
-# footer_content: "Tony Le &copy; 2022 <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">CC BY-NC-SA 4.0</a>"
-gh_edit_link: false
+
+gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/tfle/tfle.github.io"
 gh_edit_branch: "main"
-gh_edit_view_mode: "edit" # "tree" or "edit" to jump into the editor immediately
+gh_edit_view_mode: "edit" # "tree" or "edit"
 
-# Enable Mermaid.js
 mermaid:
-  # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "9.3.0"
 
-# Customise callouts
-callouts_level: quiet # or loud
+callouts_level: quiet # quiet or loud
 callouts:
   highlight:
     color: yellow
@@ -42,8 +50,33 @@ callouts:
   warning:
     title: Warning
     color: red
-  # Custom callout for teaching
   did-you-know:
     title: Did you know?
     color: green
 
+collections_dir: collections
+
+collections:
+  projects:
+    permalink: "/:collection/:path/"
+    output: true
+  classes:
+    permalink: "/:collection/:path/"
+    output: true
+  wiki:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    projects:
+      name: Projects
+      nav_fold: true
+    classes:
+      name: Classes
+      nav_fold: true
+    wiki:
+      name: Wiki
+      nav_fold: true
+      # nav_exclude: true
+      # search_exclude: true
