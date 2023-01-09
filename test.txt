@@ -1,4 +1,0 @@
-  const xkcdJSON = jQuery.getJSON(");
-  const xkcdOjbect = JSON.parse(xkcdJSON);
-  let xkcdImage = document.getElementsByTagName("img")[0];
-  xkcdImage.src = xkcdObject["img"];
