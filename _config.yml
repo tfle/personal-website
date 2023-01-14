@@ -9,7 +9,7 @@ url: https://tonyle.com # the base hostname & protocol for your site, e.g. http:
 # custom_variable:
 
 # Build settings
-theme: just-the-docs
+remote_theme: tfle/just-the-docs
 # plugins:
 #  - jekyll-feed
 

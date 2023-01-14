@@ -1,10 +1,5 @@
 source "https://rubygems.org"
 
-# Add just-the-docs gem for theming
-# Use the latest pre-release instead of the latest release
-gem "just-the-docs", "0.4.0.rc4"
-# gem "just-the-docs"
-
 # Add github-pages gem which automatically installs the correct Jekyll version
 # Run `bundle update github-pages` to upgrade
 gem "github-pages", "~> 227", group: :jekyll_plugins
