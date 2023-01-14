@@ -16,6 +16,8 @@ theme: just-the-docs
 search:
   button: true
 
+enable_copy_code_button: true
+
 aux_links:
   "contact@tonyle.com":
     - "mailto:contact@tonyle.com"
