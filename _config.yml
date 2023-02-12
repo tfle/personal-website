@@ -61,9 +61,6 @@ collections:
   projects:
     permalink: "/:collection/:path/"
     output: true
-  classes:
-    permalink: "/:collection/:path/"
-    output: true
   wiki:
     permalink: "/:collection/:path/"
     output: true
@@ -72,12 +69,11 @@ just_the_docs:
   collections:
     projects:
       name: Projects
-      nav_fold: true
-    classes:
-      name: Classes
-      nav_fold: true
+      # nav_fold: true
+      # nav_exclude: true
+      # search_exclude: true
     wiki:
       name: Wiki
-      nav_fold: true
+      # nav_fold: false
       # nav_exclude: true
       # search_exclude: true

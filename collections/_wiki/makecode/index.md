@@ -1,19 +1,19 @@
 ---
 layout: default
-title: "LCW224"
-# description: "This is the website you go to if you want to know who Tony Le is." 
-# parent: Parent Title
+title: MakeCode
+# description: Description
+# parent: Parent
 # grand_parent: Grand Parent Title
-# has_children: true
+has_children: true
 # has_toc: false
 # child_nav_order: reversed
-# nav_exlude: true
+# nav_exclude: true
 # nav_order: 1
-search_exclude: true
+# search_exclude: true
 # permalink: /
 ---
 
-# LCW224: Creative Coding
+# MakeCode
 {: .no_toc }
 
 ## Table of contents
@@ -24,7 +24,10 @@ search_exclude: true
 
 ---
 
-## Welcome
+## For Minecraft
+
+### Logins
+
 Click on your name to copy your username to the clipboard.
 
 <div id="roll">
@@ -45,10 +48,7 @@ Click on your name to copy your username to the clipboard.
   -->
 </div>
 
----
-
-## Projects
-If you want to review any code from previous weeks, click on the relevant project.
+### Projects
 
 <div id="project-list">
   <button class="btn mr-2 mb-2" id="https://minecraft.makecode.com/#pub:_TX0A5u6KbC9W">Halloween Survival</button>
@@ -68,13 +68,16 @@ You can convert the code from *Blocks* to *JavaScript* or *Python* in the **Code
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://minecraft.makecode.com/#pub:_LYXFti95gUX7" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
----
-
-## Challenges
+### Challenges
 Check in with an instructor if you finish a challenge to get it ticked off!
 
 - [ ] 🎃 Output the message "[player name] is legendary!" when the player reaches Level 10.
 - [ ] 🔨 Add a third repeating layer to your skyscraper (e.g. brick, glass, stone).
 - [ ] 🤐 Add Glowstone to the ceiling of your Secret Bunker using the Code Builder.
+
+
+---
+
+## For Micro:Bit
 
 <script src="{{site.url}}/assets/js/classes.js"></script>
