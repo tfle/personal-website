@@ -31,6 +31,7 @@ Console.WriteLine("Hello World!");
 ```
 
 `Console` is a class, `.` is a member access operator, `WriteLine()` is a method, `Hello World!` is a string literal, `;` is an end of statement operator.
+
 ---
 
 ## Data Types
@@ -40,6 +41,7 @@ Console.WriteLine("Hello World!");
 - `int`: `100` 
 - `decimal`: `100.00m`
 - `bool`: `true`
+
 ---
 
 ## Initialising Variables
@@ -58,6 +60,7 @@ var firstName = "Tony";
 ```
 
 Variables are statically typed in C# (the type is locked in at the time of declaration).
+
 ---
 
 ## Verbatim String Literal
@@ -66,6 +69,7 @@ Variables are statically typed in C# (the type is locked in at the time of decla
 Console.WriteLine(@"Tony was here!
   And also here. Backslashes \ don't need to be escaped now.");
 ```
+
 ---
 
 ## String Interpolation
@@ -75,6 +79,7 @@ string firstName = "Tony";
 string lastName = "Le";
 Console.WriteLine($"My name is {firstName} {lastName}!");
 ```
+
 ---
 
 ## Fahrenheit 451 Example
@@ -84,6 +89,7 @@ int fahrenheit = 451;
 decimal celsius = (fahrenheit - 32m) * (5m / 9m);
 Console.WriteLine($"The temperature is {celsius} Celsius.");
 ```
+
 ---
 
 ## External links
