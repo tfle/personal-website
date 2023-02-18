@@ -59,10 +59,10 @@ collections_dir: collections
 
 collections:
   projects:
-    permalink: "/:collection/:path/"
+    permalink: "/:collection/:path"
     output: true
   wiki:
-    permalink: "/:collection/:path/"
+    permalink: "/:collection/:path"
     output: true
 
 just_the_docs:
