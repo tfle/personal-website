@@ -24,6 +24,27 @@ has_toc: false
 
 ---
 
+## Fundamentals
+
+### Behind the scenes
+
+### Types
+#### Fundamental Types
+#### User Definied Types
+
+
+
+```c++
+#include <iostream>
+
+int main() {
+  std::count << "Hello, world!/n";
+  return 0;
+}
+```
+
+---
+
 ## External links
 {: .no_toc .text-delta }
 
