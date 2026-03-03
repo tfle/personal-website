@@ -1,37 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>Tony Le.</title>
-    <style>
-        body {
-            max-width: 650px;
-            margin: 50px auto;
-            padding: 0 50px;
-            font-size: 28px;
-            line-height: 1.6;
-            color: #444;
-        }
-
-        h1, h2, h3 {
-            line-height: 1.2;
-        }
-
-        a {
-            color: #444;
-        }
-    </style>
+    <title>Tony Le</title>
+    <meta content="Tony Le — Full-stack software engineer based in Sydney, graduating from UNSW May 2026. Seeking graduate software engineering roles."
+          name="description">
+    <meta content="Tony Le" property="og:title">
+    <meta content="Full-stack software engineer based in Sydney, graduating from UNSW May 2026. Seeking graduate software engineering roles."
+          property="og:description">
+    <meta content="website" property="og:type">
+    <meta content="https://tonyle.com" property="og:url">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
 </head>
+
 <body>
-<header>
-    <h1>Tony <em>Le</em>.</h1>
-</header>
-<p>Hello world! I'm a Master of IT student at <a href="https://www.unsw.edu.au">UNSW</a>.</p>
-<p>You may also know me from <a href="https://www.sydney.edu.au">USYD</a>, where I dabbled in Medical Physics, or <a
-        href="https://www.anu.edu.au">ANU</a>, where I majored in Astronomy and Astrophysics.</p>
-<p>I like to keep myself busy with unimportant nonsense like maintaining this website.</p>
-<p>I'm also on <a href="https://www.linkedin.com/in/tonyfle/">LinkedIn</a> and <a
-        href="https://github.com/tfle">GitHub</a>.</p>
+    <div class="container">
+        <p class="pwd" data-text="~/tonyle">~/tonyle</p>
+        <div class="prompt-line">
+            <span class="prompt">&gt;</span>
+            <span class="typing-effect"></span><span class="cursor">|</span>
+        </div>
+        <main>
+            <p>Hi, I'm Tony! I build full-stack applications with a focus on
+               accessibility and user-centred design. I'm a final-year Master
+               of Information Technology student at <abbr title="The University of New South Wales">UNSW
+                </abbr>, graduating May 2026.
+            </p>
+            <p>I work primarily with <strong>Python</strong>, <strong>
+                JavaScript</strong>, <strong>Node.js</strong>  and <strong>React</strong>, with
+               experience in C#, SQL, Unity, and CI/CD pipelines via GitHub
+               Actions.
+            </p>
+            <p>I got here via a slightly unusual path. I took my first
+               programming classes as electives during a medical science degree at
+               <abbr title="The University of Sydney">USYD</abbr>, continued
+               writing Python and MATLAB
+               through a graduate diploma in medical physics, and liked it enough
+               to change track entirely. My background has shaped how I approach
+               software: I'm drawn to the intersection of science, design, and
+               people, and care deeply about how users experience and interact
+               with technology.
+            </p>
+            <p aria-hidden="true" class="dinkus">* * *</p>
+            <p>Throughout my studies, I've worked on projects for myself and others:</p>
+            <ul class="projects">
+                <li>
+                    <a href="https://github.com/tfle/pgc-newsletter"
+                       rel="noopener noreferrer"
+                       target="_blank">PGC Newsletter</a>
+                    — a TypeScript and React app with a form-driven interface for
+                    editing and previewing an MJML email template, used to produce
+                    the postgraduate student newsletter at UNSW.
+                    <span class="tags">TypeScript · React · HTML/CSS</span>
+                </li>
+                <li>
+                    <a href="https://github.com/tfle/job-application-tracker"
+                       rel="noopener noreferrer"
+                       target="_blank">Job Application Tracker</a>
+                    — a GitHub-native tool that uses Issues and Actions to help
+                    students track job applications, send automated reminders, and
+                    visualise the application pipeline as a Sankey diagram.
+                    <span class="tags">GitHub Actions · Node.js ·
+                                       JavaScript</span>
+                </li>
+                <li>
+                    VR Myopia Research
+                    — I built interactive virtual reality applications for the
+                    UNSW School of Optometry and Vision Science supporting
+                    ongoing research into myopia management in children
+                    (source not publicly released).
+                    <span class="tags">Unity · C# · Jira · Confluence</span>
+                </li>
+            </ul>
+            <p aria-hidden="true" class="dinkus">* * *</p>
+            <p>I'm actively seeking graduate software engineering roles —
+               based in Sydney, open to remote, available June 2026. You can
+               reach me at
+               <a href="mailto:tony@tonyle.com">tony@tonyle.com</a>,
+               find me on
+               <a href="https://www.linkedin.com/in/tonyle-dev/"
+                  rel="noopener noreferrer"
+                  target="_blank">LinkedIn</a>,
+               or explore my work on
+               <a href="https://github.com/tfle"
+                  rel="noopener noreferrer"
+                  target="_blank">GitHub</a>.
+               My resume is available on request.
+            </p>
+            <p>When I'm not writing code for uni or side projects, I'm probably
+               spending too much time tinkering with my
+               <a href="https://github.com/tfle/dotfiles"
+                  rel="noopener noreferrer"
+                  target="_blank">development environment</a>
+               (currently enjoying Fish, Ghostty, and Helix).
+            </p>
+            <p>Thanks for stopping by!</p>
+            <p aria-hidden="true" class="fleuron">❧</p>
+        </main>
+    </div>
+    <script src="typing.js"></script>
 </body>
+
 </html>
