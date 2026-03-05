@@ -12,6 +12,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const typingElement = document.querySelector('.typing-effect');
     if (!typingElement) return;
 
+    // Check for reduced motion preference
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion) {
+        typingElement.textContent = phrases[0];
+        const cursor = document.querySelector('.cursor');
+        if (cursor) cursor.style.display = 'none';
+        return;
+    }
+
     let phraseIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
