@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const phrases = [
         "full-stack developer",
         "design enthusiast",
-        "seeking grad roles",
+        "curious across IT",
+        "science → software",
     ];
 
     const TYPE_SPEED_MS = 100;
